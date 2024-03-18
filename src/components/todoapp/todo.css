@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(39, 44, 49);
+}
+.todo-container{
+    background-color: black;
+    width: 70vw;
+    margin: 5em auto;
+    border-radius: 7px;
+    padding: 15px;
+    color: azure;
+
+}
+.header{
+    font-size: 2em;
+    text-align: center;
+}
+.input-container{
+    background-color: black;
+    padding: 0.5em;
+    border-radius: 1em;
+    border: 2px solid slategrey;
+}
+.input{
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border: 1px;
+    border-radius: 1em;
+    padding: .5em;
+    margin: 1em;
+    width: 80%;
+    
+}
+.add-btn{
+    border-radius: 1em;
+    font-size: 1.5em;
+    margin: 2px;
+    padding: 0px 15px;
+    border: none;
+    cursor: pointer;
+    color: black;
+    background-color: slategray;
+    align-items: center;
+}
+.list-tasks{
+    font-size: 1.25em;
+    font-weight: bold;
+    font-style: normal;
+    color: aliceblue;
+    background-color: black;
+    border: 1px solid slategray;
+    border-radius: 5px;
+    padding: 0.5em;
+    margin: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.delete-btn{
+    border-radius: 5px;
+    margin: 0px 5px;
+    padding: 3px 5px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    background-color: slategray;
+
+}
+.checkbox-btn{
+    float: left;
+    cursor: pointer;
+    margin: .5em;
+    width: 20px;
+    height: 20px;
+}
